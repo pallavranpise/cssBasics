@@ -1,18 +1,5 @@
-
-.top-cloud {
-    position: absolute;
-    top: 25px;
-    left: 70%;
-}
-
-.bottom-cloud {
-    position: absolute;
-    right: 70%;
-    top: 160px;
-}
-
 body {
-    background-color:#40514e
+    background-color: #f8f8f8;
     text-align: center;
     margin: 0 auto;
     font-family: 'Merriweather', serif;
@@ -36,7 +23,8 @@ h2 {
 
 h3 {
     color: #11999E;
-    font-size: 1.2rem;
+    margin: 50px auto;
+    font-size: 1.9rem;
     font-family: 'monsterrat', sans-serif;
 }
 
@@ -46,51 +34,88 @@ a {
 }
 
 hr {
-    margin: 50px auto;
+    margin: 100px auto;
     border-style: none none dotted;
     border-color: #c0c0ff;
     border-width: medium;
     height: 2px;
-    width: 11%;
+    width: 7%;
 }
 
 p {
-    font-size: 1.0rem;
+    font-size: 1.5rem;
     line-height: 2;
 }
 
 .top-container {
     padding-top: 85px;
-    background-color: #eaf6f6;
+    background-color: #eaf5f7;
     position: relative;
 }
 
 .middle-container {
-    margin: 20px auto 20px;
-    width: 60%;
+    margin: 50px auto 50px;
+    width: 66%;
     text-align: left;
 }
 
 .bottom-container {
+    padding: 7px;
     background-color: #66bfbf;
-    height: 6rem;
+    height: 7rem;
     color: white;
 }
 
-.profile{
-    width:60%;
-    text-align: center;}
-.contact-me{text-align: center;}
+.profile {
+    text-align: center;
+}
+
+.contact-me {
+    text-align: center;
+}
+
+.skills {
+    text-align: left;
+    height: 30%;
+    margin: 160px auto;
+}
+
 .skill-row {
-    /*border:40px;*/
     height: 50%;
-    border-top: 46px;
-    margin-top: 50px;
-    margin-bottom: 150px;
+    margin-top: 27%;
+    margin-bottom: 27%;
+}
+
+.avid {
+    color: #66bfbf;
+    margin: 2px auto 25px;
+    font-weight: normal;
+    font-size: 1.1rem;
+    font-family: 'monsterrat', sans-serif
+}
+
+.copyrght {
+    line-height: 1.1;
+}
+
+.othr-elm {
+    text-align: center;
+}
+
+.top-cloud {
+    position: absolute;
+    top: 25px;
+    left: 70%;
+}
+
+.bottom-cloud {
+    position: absolute;
+    right: 70%;
+    top: 160px;
 }
 
 .profile-pic {
-    margin-top: 50px;
+    margin: 50px auto;
     width: 120px;
     border-radius: 50%;
 }
@@ -99,21 +124,14 @@ p {
     width: 100px;
 }
 
-.avid {
-    color: #66bfbf;
-    margin: 2px auto 25px;
-    font-weight: normal;
-    font-size: 1.5rem;
-    font-family: 'monsterrat', sans-serif
-}
-
 .prog-img-1 {
-    margin-right: 30px;
-    width: 35%;
+    margin: 1px 30px 1px 1px;
+    width: 33%;
     float: left;
 }
 
 .prog-img-2 {
-    width: 35%;
+    margin: 1px 1px 1px 30px;
+    width: 33%;
     float: right;
 }
